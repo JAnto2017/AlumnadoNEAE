@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_9">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:background="#9FDFA2"
+                android:text="NEAE por alta capacidad intelectual (ALCAIN)"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B2CEEB"
+                android:fontFamily="casual"
+                android:text="Si maneja y relaciona de manera simultánea y eficaz múltiples recursos cognitivos diferentes, de tipo lógico, numérico, espacial, de memoria, verbal y creativo, o bien destaca especialmente y de manera excepcional en el manejo de uno o varios de ellos."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9FDFA2"
+                android:text="Sobredotación Intelectual"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B2CEEB"
+                android:fontFamily="casual"
+                android:text="Características personales de un alumno, con una edad situada en torno a los 12 años o superior, dispone de un nivel elevado de recursos en capacidades cognitivas y aptitudes intelectuales como razonamiento lógico, gestión perceptual, gestión de memoria, razonamiento verbal, razonamiento matemático y aptitud espacial."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9FDFA2"
+                android:text="Superdotación Intelectual"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv6_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B2CEEB"
+                android:fontFamily="casual"
+                android:text="Para considerar a un alumno SD, además que el perfil aptitudinal anterior vaya acompañado de una alta creatividad."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9FDFA2"
+                android:text="Talento Simple"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B2CEEB"
+                android:fontFamily="casual"
+                android:text="Muestra una elevada aptitud o competencia en un ámbito específico, como el verbal, matemático, lógico o creativo, entre otros. Por encima del centil 95 en razonamiento matemático, verbal, lógico o creatividad, pudiéndose señalar otros talentos simples como el social, el musical o el deportivo."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9FDFA2"
+                android:text="Talento Académico"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B2CEEB"
+                android:fontFamily="casual"
+                android:text="Combinación de la aptitud verbal con la aptitud lógica y la gestión de la memoria, todas ellas por encima del centil 85."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9FDFA2"
+                android:text="Talento Artístico"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B2CEEB"
+                android:fontFamily="casual"
+                android:text="Combinación de la aptitud creativa, espacial y perceptiva, todas ellas por encima del centil 80."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9FDFA2"
+                android:text="Talento Complejo o Mixto"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B2CEEB"
+                android:fontFamily="casual"
+                android:text="Combinación de distintos talentos simples entre sí o la combinación de cualquiera de las categorías anteriores con uno o varios talentos simples dan lugar a los talentos complejos o mixtos."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FF8F00"
+                android:text="@string/regresar"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

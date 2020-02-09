@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_11">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BDDBF3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DF915C"
+                android:text="Retraso del Lenguaje"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Cuando el núcleo de su dificultad se centra en el aspecto expresivo, alteraciones fonológicas y la limitación del léxico. Manifestándose el retraso en el desarrollo lingüístico de forma homogénea en todos los componentes del sistema. El alumnado, puede compensar por sí mismo este desajuste temporal si cuentan con un entorno estimulador y buenas capacidades intelectuales, respondiendo muy bien a la intervención en poco tiempo."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DF915C"
+                android:text="Dificultades delLlenguaje de Naturaleza Ambiental"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Escolares que han sufrido algún tipo de maltrato físico, sexual o emocional o han sido objeto de abandono o descuido en la nutrición, el vestido, la higiene o la salud. Manifestaciones son el mutismo o el trastorno en la fluidez del habla."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DF915C"
+                android:text="Dificultades del habla infantil: dificultades fonéticas articulatorias y dificultades fonológicas"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv6_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Manifiestan problemas en la producción de uno o varios sonidos del habla, siendo los errores estables con independencia del contexto lingüístico, el sistema fonológico está bien establecido y muestran una buena organización de sonidos estableciendo con contrastes de significado, presentan dificultad para articular sonidos por imitación. El fonema afectado habitualmente no forma parte del inventario fonético."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Los escolares tienen problemas para organizar el sistema de contrastes de los sonidos del habla y para organizar sonidos estableciendo contrastes de significado."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Se identifican errores en varios sonidos, formando patrones que corresponderían a determinados procesos de simplificación, aunque los errores son inestables y dependientes del contexto lingüístico en el que se producen."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DF915C"
+                android:fontFamily="sans-serif"
+                android:text="Retraso y Trastorno del Habla"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Inicio tardío y una evolución lenta de esta hacia los patrones normativos. Manifiesta una competencia simple pero relativamente completa, acompañada de errores típicos del desarrollo habitual, más abundantes y más duraderos. Se caracteriza por la presencia de procesos de sustitución, asimilación y de estructura silábica característicos de edades inferiores."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Presenta trastorno del habla cuando desde el inicio de su aprendizaje exhibe una competencia extremadamente limitada y simple en su habla, con hitos evolutivos enlentecidos, y mantiene de forma estable sus reducidos patrones de producción."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Manifiesta una reducción muy importante de contrastes, de sílabas, de palabras y una preferencia sistemática por un determinado segmento consonántico para sustituir al resto, así como anteriorizaciones de oclusivas y oclusivizaciones del resto de sonidos y reduplicaciones. Casos más graves, se aprecian en el alumnado una reducción de una a dos el número de segmentos y estructuras. Exiben estos escolares procesos atípicos que no suelen estar presentes en edades inferiores como reducciones inusuales de grupos consonánticos, omisión de consonantes iniciales e intervocálicas, posteriorizaciones, fricación de oclusivas, neutralizaciones vocálicas, etc."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Se usan las líquidas y las vibrantes de forma similar al resto de niños de su edad mientras que existen muchos errores en las oclusivas sordas /p/, /t/, /k/ o en las nasales que son las primeras que se adquieren."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DF915C"
+                android:text="Disglosias"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Dificultades de la articulación debidas a alteraciones anatómicas, genéticas o traumáticas, que afectan a los órganos periféricos del habla."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DF915C"
+                android:text="Disartrias"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Dificultades en el habla debidas a la parálisis u otro tipo de dificultad de los músculos de los órganos de la fonación, secundarias a lesiones en el sistema nervioso, que afectan fundamentalmente a todos los movimientos voluntarios y no sólo los del habla."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DF915C"
+                android:text="Dificultades en la fluidez del habla o disfemia"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Presenta tartamudez cuando manifiesta una dificultad en el flujo normal del habla con una repetición de sílabas o limitación para pronunciar algunas de ellasm con paros espasmódicos que interrumpen la fluidez verbal y una excesiva tensión muscular. La disfemia tónica se distingue por la interrupción en la fluidez que se da al inicio del habla junto con espasmos o inmovilizaciones de los músculos, que le impiden hablar."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="La disfemia clónica se presenta mediante la repetición de la sílaba antes de que comience o continúe la emisión de una frase, una vez que se ha iniciado el habla. La disfemia tónica-clónica es una combinación de las anteriores."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Farfulleo cuando manifiesta una alteración en la fluidez del habla que se caracteriza por la rapidez en la emisión de las palabras, la articulación desordenada y una ausencia de claridad en el mensaje verbal. La taquifemia consiste en un farfulleo asociado a una tartamudez."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DF915C"
+                android:text="Dificultades de la Voz"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Cuando tiene alterada la calidad de su voz, cuando esta alteración es total se denomina afonía."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DF915C"
+                android:text="Disfonías Funcionales"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Debidas a un abuso vocal (sobreesfuerzo), mala técnica vocal, o por ambas causas pueden ser: Disfonías funcionales simples sin complicación laríngea, Disfonía funcionales complicadas (nódulos y pólipos)"
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DF915C"
+                android:text="Disfonías Orgánicas"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Son disfunciones de la laringe, hormonal, neurológico, traumático o quirúrgico."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/regresar" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

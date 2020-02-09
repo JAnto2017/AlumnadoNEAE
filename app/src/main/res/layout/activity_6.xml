@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#44851B"
+        android:backgroundTint="#D2D8B5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:text="NEAE por DEA"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Si muestra alguna perturbación en uno o más de los procesos cognitivos básicos implicados en el empleo del lenguaje hablado o escrito."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:fontFamily="casual"
+                android:text="Anomalías al, escuchar, hablar, pensar, leer, escribir o al realizar cálculo aritmético, con implicaciones relevantes en su aprendizaje escolar."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#64AAD3"
+                android:text="@string/dea_de_lectura_o_dislexia"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#64AAD3"
+                android:text="@string/dea_de_escritura_o_disgraf_a"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#64AAD3"
+                android:text="@string/dea_de_c_lculo_o_discalculia"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#64AAD3"
+                android:text="@string/dea_de_lenguaje_oral"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FF8F00"
+                android:text="@string/regresar"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

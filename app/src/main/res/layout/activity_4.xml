@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C4EDF1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NECESIDADES EDUCATIVAS ESPECIALES POR TRASTORNO GENERALIZADO DEL DESARROLLO (TGD)"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Si manifiesta limitaciones sustanciales en su funcionamiento actual. El trastorno se caracteriza por una perturbación grave y generalizada en las habilidades para la interacción social y en las habilidades para la comunicación o por la interacción social y en las habilidades para la comunicación o por la presencia de comportamientos, intereses y actividades estereotipadas."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Puede presentarse simultáneamente con la discapacidad intelectual, sensorial o motórica, con los trastornos graves de conducta o los trastornos emocionales, así como con otras influencias extrínsecas, tales como problemas socioculturales, instrucción inapropiada o insuficiente, no es el resultado de estas condiciones o influencias."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Se consideran incluidos en estos trastornos de espectro autista el trastorno de Asperger, el trastorno Autista, el trastorno de Rett, el trastorno Desintegrativo Infantil y el trastorno generalizado del desarrollo no especificado."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FF8F00"
+                android:onClick="retornar"
+                android:text="Regresar" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

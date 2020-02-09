@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AlumnadoNecesidades</string>
+    <string name="alumnado_con_necesidades_espec_ficas">ALUMNADO CON NECESIDADES ESPECÍFICAS</string>
+    <string name="neae">NEAE</string>
+    <string name="tgd">TGD</string>
+    <string name="neae_tdah">NEAE + TDAH</string>
+    <string name="neae_dea">NEAE + DEA</string>
+    <string name="dea_de_lectura_o_dislexia">DEA de Lectura o Dislexia</string>
+    <string name="dea_de_escritura_o_disgraf_a">DEA de Escritura o Disgrafía</string>
+    <string name="dea_de_c_lculo_o_discalculia">dea de Cálculo o Discalculia</string>
+    <string name="dea_de_lenguaje_oral">dea de lenguaje oral</string>
+    <string name="regresar">Regresar</string>
+    <string name="retornar">Retornar</string>
+    <string name="neae_ecophe">NEAE + ECOPHE</string>
+    <string name="neae_intarse">NEAE + INTARSE</string>
+    <string name="neae_alcain">NEAE + ALCAIN</string>
+    <string name="notas_aclaratorias_para_la_planificaci_n">NOTAS ACLARATORIAS PARA LA PLANIFICACIÓN</string>
+    <string name="alteraciones_en_el_ambito_de_la_comunicaci_n_y_el_lenguaje">ALTERACIONES EN EL AMBITO DE LA COMUNICACIÓN Y EL LENGUAJE</string>
+    <string name="aunque_el_escolar_pueda_ser_capaz_de_comprender_y_comunicarse_en_ciertas_situaciones_muy_familiares_m_s_que_en_otras_la_capacidad_de_lenguaje_es_deficitaria_en_todas_las_circunstancias">Aunque el escolar, pueda ser capaz de comprender y comunicarse en ciertas situaciones muy familiares, más que en otras, la capacidad de lenguaje es deficitaria en todas las circunstancias.</string>
+</resources>

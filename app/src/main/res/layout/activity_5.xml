@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C4EDF1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:text="NEAE + TDAH con/sin H "
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Si conducta evidencia un patrón persistente de desatención o hiperactividad e impulsividad que es significativamente más frecuente y grave que la media."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="El TDAH se manifiesta entres distintos perfiles:"
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="a) Con predominio de la inatención en el que se exteriorizan los síntomas pero no los de H/impulsividad."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv6_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="b) Subtipo predominantemente H/impulsividad pero no los de inatención."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="c) Subtipo combinado con aparición conjunta de los síntomas de inatención y de H/impulsividad."
+                android:textColor="#AD1457"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FF8F00"
+                android:text="Regresar" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

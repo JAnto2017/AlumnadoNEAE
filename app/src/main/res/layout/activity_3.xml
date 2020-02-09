@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BEE3E7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NECESIDADES EDUCATIVAS ESPECIALES NEE"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Un alumno manifiesta NEE cuando requiere, durante un periodo de su escolarización, determinados apoyos y atenciones educativas."
+                android:textColor="#C62828"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EEE76D"
+                android:fontFamily="casual"
+                android:text="1.- NEE por Discapacidad"
+                android:textColor="#C62828"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Si presenta limitaciones que afectan a su proceso de aprendizaje a causa de discapacidad intelectual, motora, visual o auditiva, permanente o transitoria, y que requiere determinados apoyos y atenciones educativas específicas."
+                android:textColor="#C62828"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EEE76D"
+                android:fontFamily="casual"
+                android:text="1.1.- NEE por Discapacidad Intelectual"
+                android:textColor="#C62828"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Si manifiesta limitaciones sustanciales con implicaciones en el aprendizaje escolar, con CI entre 70 y 75 o inferior, en al menos una de las destrezas adaptativas conceptuales, prácticas o sociales. Puede presentarse simultáneamente con la discapacidad sensorial o motórica, con los trastornos generalizados del desarrollo, con trastornos graves de conducta o trastornos emocionales."
+                android:textColor="#C62828"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EEE76D"
+                android:fontFamily="casual"
+                android:text="1.2.- NEE por Discapacidad Motora"
+                android:textColor="#C62828"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Si en grados variables se ven limitadas actividades de su vida personal como la alimentación, el vestido, el aseo, o la movilidad y comunicación. Se ve afectada: sistema óseo, muscular y sistema nervioso."
+                android:textColor="#C62828"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EEE76D"
+                android:fontFamily="casual"
+                android:text="1.3.- NEE por Discapacidad Visual"
+                android:textColor="#C62828"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Si manifiesta ceguera total o problemas visuales graves en ambos ojos con la mejor corrección óptica. La presencia de esta discapacidad conlleva implicaciones significativas en su aprendizaje escolar."
+                android:textColor="#C62828"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EEE76D"
+                android:fontFamily="casual"
+                android:text="1.4.- NEE por Discapacidad auditiva"
+                android:textColor="#C62828"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Cuando existe sordera total o hipoacusia caracterizada por una pérdida media superior a 20 dB y un código comunicativo ausente o limitado. Esta discapacidad conlleva implicaciones significativas en su aprendizaje en el desarrollo de sus capacidades comunicativas y del lenguaje."
+                android:textColor="#C62828"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FF8F00"
+                android:onClick="retornar"
+                android:text="REGRESAR" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
